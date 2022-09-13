@@ -1,0 +1,307 @@
+/* #############################
+    Common
+############################### */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'ubuntu';
+}
+.backBlack{
+    background-color: black;
+}
+.backWhite{
+    background-color: white;
+}
+.bigFont{
+    font-size: 60px;
+    margin: 15px;
+}
+.fontDim{
+    color: #808085;
+}
+.fontBlack{
+    color: #1D1D1F;
+}
+
+
+/* #############################
+    Header
+############################### */
+header{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    /* background: transparent; */
+    background-color: rgba(51, 50, 50, 0.69);
+    height: 44px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header img{
+    height: 20px;
+    width: 20px;
+}
+header img,span{
+    margin-right: 30px;
+    font-weight: 100px;
+    cursor: pointer;
+}
+#storeLogo{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+/* #############################
+    First Block
+############################### */
+.firstBlock{
+    height: 653PX;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.firstBlock .container{
+    z-index: 0.2;
+    width: 38%;
+    text-align: center;
+}
+.firstBlock .container span{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #############################
+    SECOND BLOCK
+############################### */
+.secondBlock{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.secondBlock .left{
+    height: 653PX;
+    width: 48%;
+    display: flex;
+    align-items: flex-end;
+}   
+.secondBlock .right{
+    width: 48%;
+    height: 653px;
+    display: flex;
+    align-items: flex-end;
+}
+.secondBlock .container{
+    z-index: 0.2;
+    width: 100%;
+    text-align: center;
+}
+.secondBlock .container strong{
+    margin: 7px 0 12px 0;
+}
+.secondBlock .container h1 img{
+    padding-top: 15px;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    bottom: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #############################
+    Third
+############################### */
+.trdBlock{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.trdBlock .left{
+    height: 653PX;
+    width: 48%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #FBFBFD;
+}   
+.trdBlock .right{
+    width: 48%;
+    height: 653px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #F5F5F7;
+}
+.trdBlock .container{
+    z-index: 0.2;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.trdBlock .right .container{
+    bottom: 60px;
+}
+.trdBlock .container strong{
+    margin: 7px 0 12px 0;
+}
+.trdBlock .container h1 img{
+    padding-top: 15px;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    bottom: -2px;
+}
+
+
+
+
+
+/* #############################
+    Forth
+############################### */
+.frtBlock{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.frtBlock .left{
+    height: 653PX;
+    width: 48%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #FBFBFD;
+}   
+.frtBlock .right{
+    width: 48%;
+    height: 653px;
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+}
+.frtBlock .container{
+    z-index: 0.2;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.frtBlock .right .container{
+    bottom: 60px;
+}
+.frtBlock .container strong{
+    margin: 7px 0 12px 0;
+}
+.frtBlock .container h1 img{
+    padding-top: 15px;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    bottom: -2px;
+}
+
+
+
+
+
+
+
+/* #####################
+slider
+####################### */
+.slider{
+    /* background-color: red; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dots{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    margin: 10px;
+}
+.dotDiv{
+    display: flex;
+    justify-content: center;
+}
+#dot3{
+    background-color: #707070;
+}
+
+.dots:hover{
+    background-color: #707070;
+}
+
+
+
+
+
+
+
+/* #############################
+    Footer
+############################### */
+ 
+footer{
+    background-color: #F5F5F7;
+    padding: 20px;
+}
+
+footer .container{
+    width: 75%;
+    margin: 50px auto;
+}
+
+footer .container p{
+    text-align: justify;
+    font-size: small;
+    color: #8C8C8E;
+}
+
+footer .sections{
+    display: flex;
+    justify-content: space-around;
+    color: #8C8C8E;
+}
+
+footer .sections p{
+    margin-top: 15px;
+    color: #8C8C8E;
+}
